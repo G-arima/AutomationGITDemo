@@ -48,7 +48,7 @@ public class BaseTest {
         }
         else if(browserName.equalsIgnoreCase("edge"))
         {
-        	//edge
+        	System.out.println("abc");
         }
     	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

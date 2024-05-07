@@ -1,0 +1,33 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# TestNG reports
+test-output/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# WebDriverManager
+webdrivermanager.log
+
+# ChromeDriver and GeckoDriver executables
+chromedriver
+geckodriver
+
+# TestNG configuration files
+testng.xml
+
+# Eclipse project metadata
+.metadata/

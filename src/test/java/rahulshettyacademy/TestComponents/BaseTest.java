@@ -22,6 +22,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import rahulshettyacademy.pageobjects.LandingPage;
 
 public class BaseTest {
@@ -49,6 +50,9 @@ public class BaseTest {
         else if(browserName.equalsIgnoreCase("edge"))
         {
         	System.out.println("abc");
+        	System.out.println("defg");
+        	System.out.println("hijklmnop");
+        	System.out.println("qrstuvwxy");
         }
     	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -55,6 +55,7 @@ public class BaseTest {
         	System.out.println("qrstuvwxy");
         	System.out.println("I scream You Scream we all love Ice cream");
         	System.out.println("Everyone Loves Icreams especially in Summers");
+        	System.out.println("I love Dance");
         }
     	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -56,6 +56,11 @@ public class BaseTest {
         	System.out.println("I scream You Scream we all love Ice cream");
         	System.out.println("Everyone Loves Icreams especially in Summers");
         	System.out.println("I love Dance");
+        	System.out.println("I love Dark Chololates");
+        	System.out.println("I love to scroll Instagram");
+        	System.out.println("I love to cook new dishes");
+        	System.out.println("I love to code");
+        	System.out.println("I aspire to become a Automation Testing Engineer");
         }
     	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

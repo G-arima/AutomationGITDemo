@@ -53,7 +53,12 @@ public class BaseTest {
         	System.out.println("defg");
         	System.out.println("hijklmnop");
         	System.out.println("qrstuvwxy");
+<<<<<<< HEAD
         
+=======
+        	System.out.println("I scream You Scream we all love Ice cream");
+        	System.out.println("Everyone Loves Icreams especially in Summers");
+>>>>>>> 9bcdb5f54157410846b01e4804d8d495a3c8705b
         }
     	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
